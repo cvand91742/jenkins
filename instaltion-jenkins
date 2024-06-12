@@ -16,3 +16,5 @@
    14  systemctl start jenkins
    15  systemctl status jenkins
    16  cat /var/lib/jenkins/secrets/initialAdminPassword -->
+
+   whoami #shell cammand
