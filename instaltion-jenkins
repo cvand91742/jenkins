@@ -1,5 +1,5 @@
 ### installations for jenkins in vm #### 
-
+<!-- 
    sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
     2  yum install wget 
     3   sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
@@ -15,4 +15,4 @@
    13  systemctl status jenkins
    14  systemctl start jenkins
    15  systemctl status jenkins
-   16  cat /var/lib/jenkins/secrets/initialAdminPassword
+   16  cat /var/lib/jenkins/secrets/initialAdminPassword -->
