@@ -1,0 +1,18 @@
+### installations for jenkins in vm #### 
+
+   sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    2  yum install wget 
+    3   sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    4  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    5    yum install fontconfig java-17-openjdk
+    6  yum install jenkins
+    7  yum search jdk
+    8  yum search jdk
+    9  yum install java-11-openjdk.x86_64
+   10  java -version 
+   11  java -version 
+   12  yum install jenkins -y
+   13  systemctl status jenkins
+   14  systemctl start jenkins
+   15  systemctl status jenkins
+   16  cat /var/lib/jenkins/secrets/initialAdminPassword
